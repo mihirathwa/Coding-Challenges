@@ -88,8 +88,9 @@ public class DeleteNodesGreaterThanX {
 	public static void main(String[] args) {
 		LinkedList list = new LinkedList();
 		Scanner in = new Scanner(System.in);
+		System.out.print("Enter number of nodes for LinkedList: ");
 		int x = in.nextInt();
-		
+		System.out.println("Enter the nodes: ");
 		while (x-- > 0) {
 			int inp = in.nextInt();
 			list.addNode(inp);
